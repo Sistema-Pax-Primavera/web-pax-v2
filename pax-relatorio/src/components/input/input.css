@@ -1,0 +1,19 @@
+.input-with-label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-with-label label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.input-with-label input{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.lines{
+    width: 100%;
+}

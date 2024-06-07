@@ -1,0 +1,16 @@
+{
+    "imports": {
+      "@pax/root-config": "http://sistemadourados.ddns.net/pax-primavera/pax-root-config.js",
+      "@pax/pax-login": "http://sistemadourados.ddns.net/pax-primavera/pax-pax-login.js",
+      "@pax/pax-home": "http://sistemadourados.ddns.net/pax-primavera/pax-pax-home.js",
+      "@pax/pax-associado": "http://sistemadourados.ddns.net/pax-primavera/pax-pax-associado.js",
+      "@pax/pax-venda": "http://sistemadourados.ddns.net/pax-primavera/pax-pax-venda.js"
+    },
+  "imports-local": {
+    "@pax/root-config": "/pax-primavera/pax-root-config.js",
+    "@pax/pax-login": "/pax-primavera/pax-pax-login.js",
+    "@pax/pax-home": "/pax-primavera/pax-pax-home.js",
+    "@pax/pax-associado": "/pax-primavera/pax-pax-associado.js",
+    "@pax/pax-venda": "/pax-primavera/pax-pax-venda.js"
+  }
+}

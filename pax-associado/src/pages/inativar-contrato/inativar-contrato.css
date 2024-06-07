@@ -1,0 +1,5 @@
+.inativa-contrato button{
+    background-color: var(--verde);
+    color: var(--branco);
+    margin-top: 15px;
+}

@@ -1,0 +1,112 @@
+.container-agendamento-cobradores{
+    margin-top: 26px;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.subcontainer-agendamento-cobradores{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    background-color: var(--cinza-leve);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.linha-agendamento-cobradores{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.campos-agendamento-cobradores{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-agendamento-cobradores label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-agendamento-cobradores select{
+    font-weight: 500;
+}
+
+.button-agendamento-cobradores{
+    width: 15%;
+}
+
+.dados-cliente-cobradores{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campos-agendamento-cobradores2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-agendamento-cobradores2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-agendamento-cobradores2 select{
+    font-weight: 500;
+    background-color: var(--cinza-leve);
+}
+
+.campos-agendamento-cobradores2 input{
+    font-weight: 500;
+    background-color: var(--cinza-leve);
+}
+
+
+.campos-agendamento-cobradores3{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-agendamento-cobradores3 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-agendamento-cobradores3 input{
+    font-weight: 500;
+    background-color: var(--cinza-leve);
+}
+
+.campos-agendamento-cobradores4{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-agendamento-cobradores4 input{
+    font-weight: 500;
+    background-color: var(--cinza-leve);
+}
+
+.campos-agendamento-cobradores4 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.dados-cliente-cobradores p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--verde);
+    font-size: 12px;
+    font-weight: 700;
+}

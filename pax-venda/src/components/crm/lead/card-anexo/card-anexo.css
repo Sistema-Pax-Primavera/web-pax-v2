@@ -1,0 +1,20 @@
+.card-anexo {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-anexo-titulo {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.card-anexo-botoes {
+    font-size: 11px;
+    color: white;
+}

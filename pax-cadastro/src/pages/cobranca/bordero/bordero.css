@@ -1,0 +1,29 @@
+.tipo-bairro-cadas{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.tipo-bairro-cadas label{
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+}
+
+.tipo-bairro-cadas input{
+    background-color: var(--cinza-leve);
+    font-weight: 500;
+}
+
+.tipo-bairro-cadas select{
+    background-color: var(--cinza-leve);
+    font-weight: 500;
+}
+
+
+.buttao-salvar-bairro{
+    margin-top: 15px;
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 20%;
+}

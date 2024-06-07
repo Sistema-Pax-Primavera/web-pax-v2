@@ -1,0 +1,41 @@
+.container-modal-cobradores{
+    width: 100%;
+}
+
+.modal-cobradores-fecha{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.modal-cobradores-fecha label{
+    font-size: 15px;
+    width: 90%;
+    font-weight: 500;
+}
+
+.modal-cobradores-fecha button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--branco);
+    color: var(--vermelho);
+    cursor: pointer;
+}
+
+.filtro-envios2{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    width: 97%;
+    background-color: var(--cinza-leve);
+    border-radius: 5px;
+}
+
+.check-options-envios2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 5px;
+}

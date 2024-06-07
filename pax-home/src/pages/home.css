@@ -1,0 +1,195 @@
+.home-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.container-dashboard {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  overflow-y: hidden;
+  gap: 10px;
+  align-items: flex-start;
+  overflow-x: hidden;
+  /* Adicione esta linha para alinhar as divs independentemente */
+}
+
+.principal-home {
+  gap: 10px;
+  width: 100%;
+}
+
+.container-dashboard2 {
+  width: 97%;
+  height: 100%;
+  overflow: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+.container-dashboard.menu-collapsed .menus-lateral {
+  display: none;
+}
+
+
+
+.noticias-title {
+  text-align: center;
+  /* Centraliza horizontalmente */
+  line-height: 2;
+  /* Ajusta a altura da linha para centralizar verticalmente */
+}
+
+.mixed-chart {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+
+.mixed-chart>div {
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dinheiro-recebimento {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--verde);
+}
+
+.dinheiro-recebimento img {
+  width: 25%;
+}
+
+.container-dashboard {
+  display: flex;
+  transition: margin-left 0.3s;
+  /* Adiciona uma transição suave ao margin-left */
+}
+
+.container-dashboard.collapsed {
+  margin-left: -8%;
+  /* Move o conteúdo para a esquerda quando o menu está recolhido */
+}
+
+.menus-lateral.collapsed {
+  width: 0;
+  margin-left: 200px;
+  /* Reduz a largura do menu para 0 quando recolhido */
+}
+
+
+
+.logo.collapsed {
+  max-width: 50px;
+  width: 100%;
+  margin-left: 100px;
+  /* Define o tamanho da logo quando o menu está recolhido */
+}
+
+.text-hidden {
+  visibility: hidden;
+  /* Oculta o texto dos botões quando o menu está recolhido */
+}
+
+.menus-lateral.collapsed button {
+  padding: 5px;
+  /* Ajuste o padding conforme necessário quando o menu está recolhido */
+  justify-content: center;
+  /* Alinhe o conteúdo ao centro quando recolhido */
+  gap: 0;
+  /* Remova o espaço entre o ícone e o texto quando recolhido */
+  background-color: red;
+  position: relative;
+}
+
+.menus-lateral.collapsed button span {
+  display: none;
+  /* Oculta o texto dentro dos botões quando o menu está recolhido */
+}
+
+.each-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  /* Ajuste conforme necessário */
+}
+
+.each-slide>div {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-position: center;
+  background-size: contain;
+  /* Isso faz com que a imagem seja dimensionada para caber dentro do contêiner sem perder a proporção */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.unidade-select-prom-ad {
+  /* background-color: var(--verde); */
+  border-top-left-radius: 5px;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--branco);
+  border-top-right-radius: 5px;
+}
+
+
+
+.tradutor {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+.testetew {
+  margin-right: 50px;
+}
+
+.menu-paper {
+  margin-top: 8px;
+  /* Adiciona margem superior */
+  margin-right: 20px;
+  /* Adiciona margem direita */
+}

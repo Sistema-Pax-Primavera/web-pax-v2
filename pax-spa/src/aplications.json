@@ -1,0 +1,28 @@
+{
+    "applications": [
+        {
+            "name": "@pax/pax-login",
+            "package": "@pax/pax-login",
+            "activeWhen": "/",
+            "exact": true
+        },
+        {
+            "name": "@pax/pax-home",
+            "package": "@pax/pax-home",
+            "activeWhen": "/pax-primavera",
+            "exact": false
+        },
+        {
+            "name": "@pax/pax-associado",
+            "package": "@pax/pax-associado",
+            "activeWhen": "/associado",
+            "exact": false
+        },
+        {
+            "name": "@pax/pax-venda",
+            "package": "@pax/pax-venda",
+            "activeWhen": "/vendas",
+            "exact": false
+        }
+    ]
+}

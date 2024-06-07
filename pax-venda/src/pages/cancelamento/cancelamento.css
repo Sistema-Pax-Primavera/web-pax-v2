@@ -1,0 +1,116 @@
+.container-soli-cobradores5 {
+    width: 88%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttaos-soli5{
+      width: 48%;
+  }
+  
+  
+  .buttaos-soli2{
+    width: 100%;
+  }
+  
+  .solicitacoes-cobradores05 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    background-color: var(--cinza-leve);
+    width: 40%;
+  }
+  
+  .solicitacoes-cobradores05 label {
+    color: var(--verde);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .solicitacoes-cobradores05 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: var(--cinza-leve);
+    width: 40%;
+  }
+  
+  .solicitacoes-cobradores05 label {
+    color: var(--verde);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nenhuma-solicitacao-cobra5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .altura-card-soli{
+    gap: 10px;
+    display: flex;
+    max-height: 355px;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .nenhuma-solicitacao-cobra5 p{
+    color: var(--verde);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .aguardando-sincronismo-soli5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aguardando-sincronismo-soli5 label{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    background-color: var(--verde);
+    color: var(--branco);
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .pesquisa-solicitacao01{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .pesquisa-solicitacao01 input{
+    width: 85%;
+    background-color: var(--branco);
+    font-weight: 500;
+  }
+
+  .lupa-pesquisa{
+    width: 15%;
+  }

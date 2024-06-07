@@ -1,0 +1,8 @@
+.select-todos{
+    display: flex;
+    flex-direction: column;
+}
+
+.select-todos select{
+    font-size: 500
+}

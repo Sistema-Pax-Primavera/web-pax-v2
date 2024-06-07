@@ -1,0 +1,166 @@
+.container-contratos-vendas{
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.avanca-form-volta{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.formulario-contratos-contratos{
+    width: 15%;
+}
+
+.confirmados-contratos-contratos{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+.confirmados-contratos-contratos button{
+    width: 50%;
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--verde);
+    font-weight: 600;
+}
+
+.status-contrato{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.status-contrato label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.button-retorn button{
+    color: var(--verde);
+    width: 12%;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px
+}
+
+.clientes-contrato-venda1{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.clientes-contrato-venda{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+}
+
+.pesquisa-contrato-venda{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.carregando-projetos{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+.pesquisa-contrato-venda input{
+    background-color: var(--cinza-leve);
+    width: 30%;
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+.pesquisa-contrato-venda button{
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--verde);
+    color: var(--branco);
+    font-weight: 800;
+    padding: 10px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.imagem-pesquisa{
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-pesquisa img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.tabela-contratos-vendas {
+    width: 95%;
+    margin-top: 10px;
+}
+
+.abrir-contrato button{
+    background-color: var(--verde);
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.data-filiacao-contrato {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.clientes-contrato-venda8{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 88%;
+}
+
+.data-filiacao-contrato input{
+    width: 100%;
+}
+
+.documento-anexo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.documento-anexo img{
+    width: 80%;
+}
+
+.document button {
+    background-color: var(--verde);
+    padding: 10px;
+    color: var(--branco);
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+
+

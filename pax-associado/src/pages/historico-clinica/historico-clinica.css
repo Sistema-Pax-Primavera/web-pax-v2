@@ -1,0 +1,60 @@
+@import '../../styles/index.css';
+
+.historico-container-clinica {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: auto;
+}
+
+.historico-card-clinica {
+    border: 3px solid #ddd;
+    padding: 5px;
+    width: calc(30% - 50px);
+    height: calc(45% - 10px);
+    max-width: 300px;
+    max-height: 300px;
+    /* Largura inicial do card - ajuste conforme necessário */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    overflow: hidden;
+    /* Garante que as bordas arredondadas são aplicadas corretamente */
+    position: relative;
+}
+
+.historico-card-clinica p {
+    font-size: 14px;
+}
+
+.historico-clinica-funeraria{
+    background-color: var(--cinza-leve);
+    margin-top: 20px;
+    padding: 15px;
+    width: 81%;
+    height: 480px;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.historico-card-clinica::before {
+    content: '';
+    height: 10px;
+    width: 100%;
+    background-color: var(--verde);
+    /* Cor verde no topo do card */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icone-clinica {
+    /* Estilo do ícone */
+    margin-right: 10px;
+    margin-top: 10px;
+    /* Espaçamento à direita do ícone */
+}
+
+.info-clinica {
+    margin-top: 5px;
+
+}

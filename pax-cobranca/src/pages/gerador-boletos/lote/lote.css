@@ -1,0 +1,340 @@
+.container-lote {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.container-lote2 {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 5px;
+  background-color: var(--cinza-leve);
+}
+
+.linhas-campo-lote {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.campos-lote01 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.campos-lote01 input {
+  font-weight: 500;
+}
+
+.campos-lote01-ate label{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-lote01-ate {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.campos-lote01-ate  input {
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.anual-mensal{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.aplica-filtro-anual-mensal{
+  width: 50%;
+  margin-left: 10px;
+}
+
+
+.carregando-tabelas{
+  margin-top: 100px;
+}
+
+.campos-lote01 label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-lote02 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.campos-lote02 label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-lote01-buttao {
+  margin-top: 15px;
+  width: 20%;
+}
+
+.campos-lote02 p {
+  padding: 10px;
+  background-color: var(--branco);
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avuls-confirma {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+  width: 100%s;
+}
+
+.container-lote-boletos {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.botao-baixa-bole label {
+  font-size: 12px;
+  color: var(--verde);
+  font-weight: 700;
+}
+
+.botao-baixa-bole {
+  width: 20%;
+  margin-left: 10px;
+  background-color: var(--cinza-leve);
+  padding: 20px;
+  border-radius: 10px;
+  height: 150px;
+  margin-top: 10px;
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.align-cobrador-botao{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+.check-campo-lote{
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+}
+
+.check-campo-lote label{
+  font-weight: 500;
+}
+
+.check-campo-lote select{
+  font-weight: 500;
+}
+
+.option-marcadas-lote{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+.option-marcadas-lote label{
+  font-size: 12px;
+}
+
+.nome-marcada-lote{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--branco);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.nome-marcada-lote label{
+  font-weight: 500;
+}
+
+.nome-marcada-lote button{
+  background-color: var(--branco);
+  cursor: pointer;
+  padding: 0px;
+  color:var(--vermelho)
+}
+
+.card-mensal-anual{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+  background-color: var(--branco);
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.confirma-cobrador{
+  width: 25%;
+  margin-top: 10px;
+}
+
+.tabela-lote {
+  width: 100%;
+}
+
+.tabela-lote label{
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: var(--verde);
+}
+
+.de-ate-lote1 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.de-ate-lote1 label{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.de-ate-lote {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.de-ate-lote label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.de-ate-lote input {
+  font-weight: 500;
+  width: 100%;
+}
+
+.campos-lote3{
+  display: flex;
+  height: 50px;
+  width:55%;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.campos-lote3 label{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.botao-seleciona-volta{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width:85%;
+}
+
+.botao-seleciona-volta2{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width:15%;
+  margin-top: 10px;
+}
+
+.Mui-selected {
+  background-color: #006b33 !important;
+  color: #fff !important;
+}
+
+
+
+.busca-ate{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.filter-botao{
+  width: 5%;
+  margin-top: 15px
+}
+
+.container-lote-2-card{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.modal-anual-mensal{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
+
+.result-cobra-plan{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.resultado01-cobra{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  background-color: var(--cinza-leve);
+  padding: 10px;
+  border-radius: 5px;
+  height: 160px;
+}
+
+.resultado01-cobra label{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.option-selecionada-lotes{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,56 @@
+.tipo-raca-cadas {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.tipo-raca-cadas label {
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+}
+
+.tipo-raca-cadas select {
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+}
+
+.tipo-raca-cadas input {
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+}
+
+.buttao-salvar-raca {
+  margin-top: 15px;
+  background-color: var(--verde);
+  border-radius: 10px;
+  width: 20%;
+}
+
+.edit-gren-red button {
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.green-background {
+  background-color: var(--verde);
+  border: none;
+  display: flex;
+  align-items: center;
+  color: var(--branco);
+  justify-content: center;
+  border-radius: 10px; /* ou qualquer outro valor desejado */
+  padding: 5px; /* ou qualquer outro valor desejado */
+}
+
+.red-background {
+  background-color: var(--vermelho);
+  border: none;
+  display: flex;
+  color: var(--branco);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; /* ou qualquer outro valor desejado */
+  padding: 5px; /* ou qualquer outro valor desejado */
+}

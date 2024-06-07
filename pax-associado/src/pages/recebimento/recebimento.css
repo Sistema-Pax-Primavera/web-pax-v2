@@ -1,0 +1,409 @@
+.recebimento-associado {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.dados-recebimento-associado {
+    margin-top: 20px;
+    border-radius: 5px;
+    height: auto;
+    gap: 5px;
+    width: 83%;
+    display: flex;
+    max-height: 500px;
+    overflow-y: auto;
+    flex-direction: column;
+
+}
+
+.pag-dupl-men {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.duplica-adiciona-recebimento {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.resultado-forma-pagamento{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.pag-forma-valor-rec{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.forma-pagamento-recebimento {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.forma-pagamento-recebimento select{
+    font-weight: 500;
+}
+
+.conta-bancaria-recebimento {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conta-bancaria-recebimento input{
+    font-weight: 500;
+    padding: 8px;
+}
+
+.muda-linha-recebimento {
+    display: flex;
+    gap: 5px;
+    width: 50%;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--verde);
+    /* Cor do thumb/scrollbar */
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* Largura do scrollbar */
+}
+
+.recebimento-associado button {
+    background-color: var(--verde);
+    color: var(--branco);
+    width: 85%;
+}
+
+.adicionar-recebimento-forma {
+    margin-top: 18px;
+    width: 10%;
+}
+
+.adicionar-recebimento-forma button {
+    width: 100%;
+    background-color: var(--verde);
+    color: var(--branco);
+    padding: 4px;
+    cursor: pointer;
+}
+
+.lista-parcelas{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tipo-pagamento-2{
+    display: flex;
+    color: var(--verde);
+    align-items: center;
+    gap: 10px;
+}
+
+.tipo-pagamento-2 label{
+    color: var(--verde);
+    font-weight: 700;
+}
+
+.container-valores-recebimento {
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+}
+
+.tipo-pagamento-recebimento{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    height: 41px;
+    justify-content: center;
+    width: 20%;
+    background-color: var(--branco);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tipo-pagamento-recebimento-3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: var(--branco);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.remove-forma-paga button{
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 50px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+.tipo-pagamento-recebimento-3 h2{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.tipo-pagamento-recebimento-3 h3{
+    font-weight: 00;
+    font-size: 13px;
+    gap: 10px;
+}
+
+.tipo-pagamento-recebimento-3 label{
+    color: var(--verde);
+    font-weight: 800;
+    gap: 10px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.button-aplica-desconto{
+    width: 20%;
+}
+
+.fundo-recebimento {
+    background-color: var(--cinza-leve);
+    padding: 15px;
+    border-radius: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-recebimento button {
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.receber-add-recebimento {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.receber-add-recebimento button {
+    color: var(--branco);
+    background-color: var(--verde);
+    width: 40%;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.linhas-recebimento {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+
+.campos-recebimento {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.tabela-acerto-recebimento {
+    display: flex;
+    flex-direction: column;
+}
+
+.formas-recebimento {
+    width: 10%;
+}
+
+.recebimento-03 {
+    width: 80%;
+}
+
+.deleta-recebimento-associado {
+    width: 15%;
+}
+
+.deleta-recebimento-associado button {
+    color: var(--branco);
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.acordion-recebimento {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+
+.recebimento-01 {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recebimento-01 input {
+    font-weight: 500;
+}
+
+.recebimento-01 select {
+    font-weight: 500;
+}
+
+.delete-recebimento {
+    width: 100%;
+}
+
+.delete-recebimento button {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+.recebimento-01 select {
+    width: 100%;
+}
+
+.recebimento-01 input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.recebimento-02 input {
+    padding: 7px;
+    font-weight: 500;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.recebimento-02 {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-linha-recebimento {
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+
+
+.container-linhas {
+    display: flex;
+    gap: 10px;
+    width: 45%;
+}
+
+.content-formulario-iniciar-atendimento2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 95%;
+    padding: 20px;
+    gap: 10px;
+    background-color: #f0f0f0;
+    /* Adicione uma cor de fundo se desejar */
+}
+
+.em-aberto input{
+    width: 5%;
+}
+
+.icone-aberto{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aberto-recebimento{
+    display: flex;
+    color: var(--verde);
+    align-items: center;
+    justify-content: center;
+    gap: 10cv px;
+    padding-left: 10px;
+    background-color: var(--branco);
+    border-radius: 5px;
+    width: 70%;
+}
+
+.aberto-recebimento input{
+    width: 100%;
+    background-color: var(--branco);
+}
+
+.em-aberto{
+    width: 20%;
+}
+
+.em-aberto2 input,
+.em-aberto3 input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.em-aberto label {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.em-aberto2 label {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.em-aberto3 label {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

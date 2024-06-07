@@ -1,0 +1,24 @@
+.luto-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.luto-img img{
+    width: 30%;
+}
+
+.todos-cards{
+    margin-top: 10px;
+    width: 30%;
+}
+
+.informacoes-funeraria{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes-funeraria label{
+    color: var(--preto);
+    font-weight: 600;
+}

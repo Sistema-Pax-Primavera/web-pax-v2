@@ -1,0 +1,36 @@
+.card-tarefa-crm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    background-color: var(--branco);
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    height: 20px;
+    padding: 20px 1px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-date {
+    width: 100%;
+    background-color: var(--verde);
+    border-radius: 2px;
+    padding: 8px 1px;
+    margin-bottom: 8px;
+}
+
+
+.card-tarefa-crm-date {
+    font-size: 14px;
+    color: white;
+}
+
+.card-tarefa-crm-category {
+    font-size: 11px;
+    align-items: center;
+    font-weight: 600;
+    color: black;
+}

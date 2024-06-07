@@ -1,0 +1,14 @@
+.button-icones{
+    width: 100%;
+    margin-right: 5px;
+}
+
+.button-icones-sem-fundo button{
+    width: 100%;
+    display: flex;
+    color: var(--verde);
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    justify-content: center;
+}

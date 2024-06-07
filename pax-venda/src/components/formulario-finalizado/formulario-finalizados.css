@@ -1,0 +1,70 @@
+button-pet-humano button {
+    background-color: var(--verde);
+    transform: none;
+    color: var(--branco);
+    font-size: 12px;
+    text-align: start;
+    transform: none;
+    font-weight: 500;
+    padding: 9px;
+    cursor: pointer;
+}
+
+button-pet-humano button-active  {
+    color:red;
+    border-bottom: 3px solid yellow;
+    transform: none;
+}
+
+.formulario-confirma-finalizados {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-contratos-finalizados5 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.avanca-form-volta4 {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.legenda-cremacao-contrato-finalizado{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 75%;
+}
+
+.campos-legenda-contrato9 {
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--branco);
+}
+
+.legenda-cremacao-contrato-finalizado2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.campos-02-contrato select{
+    font-weight: 500;
+    color: black;
+}
+
+.rg-contrato select{
+    font-weight: 500;
+    color: black;
+}
+
+.campos-04-contrato input{
+    font-weight: 500;
+}

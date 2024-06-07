@@ -1,0 +1,76 @@
+.container-contato-associado {
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 5px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campos-02-contato {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.campos-02-auto {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.campos-02-auto input{
+    font-weight: 500
+}
+
+.campos-02-contato input {
+    font-weight: 500;
+}
+
+.campos-02-contato select {
+    font-weight: 500;
+}
+
+.nome-contato-associado {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--cinza-leve);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.button-contato button {
+    background-color: var(--verde);
+    margin-top: 15px;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: var(--branco);
+}
+
+.tipo-contato {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tipo-contato button {
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: var(--verde);
+    color: var(--branco);
+}
+
+.todos-contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

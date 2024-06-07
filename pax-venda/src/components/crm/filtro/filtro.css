@@ -1,0 +1,26 @@
+.container-modal-lateral-filtro-crm-vendas {
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+}
+
+.campos-filtro {
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    width: 98%;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+.campos-vendas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pesquisa-filtro-crm-vendas {
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+}

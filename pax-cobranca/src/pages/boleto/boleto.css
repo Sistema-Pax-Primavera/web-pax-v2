@@ -1,0 +1,155 @@
+.informacoes-cont-cobr-boleto {
+  width: 150%;
+  display: flex;
+  height: 90%;
+  overflow-x: auto;
+  gap: 5px;
+}
+
+.alinhando-loading {
+  margin-top: 150px;
+}
+
+
+/* Estilizando a barra de rolagem para navegadores Gecko (Firefox) */
+.container-cobranca-escritorio-boleto {
+  scrollbar-width: thin;
+  /* cor do controle de rolagem e cor de fundo da trilha */
+}
+
+.container-cobranca-escritorio-boleto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2px;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.container-cobranca-escritorio-boleto button {
+  width: 10%;
+  color: var(--branco);
+  background-color: var(--verde);
+  display: flex;
+  font-weight: 600;
+  font-size: 12px;
+  align-items: center;
+  gap: 20px;
+}
+
+.button-retorn3-boleto {
+  width: 80%
+}
+
+.retorna-cobranca-boleto {
+  display: flex;
+  align-items: start;
+  width: 100%;
+}
+
+.filtro-cobrancaca-escritorio-boleto {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 80%;
+}
+
+.button-retorn-cobran-boleto {
+  width: 4%;
+}
+
+.crm-escritorio-container-boleto {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.crm-escritorio-container-boleto label {
+  color: var(--verde);
+  margin-top: 8px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-retorn2-boleto {
+  margin-right: 10px;
+}
+
+.container-modal-lateral-boleto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.campos-filtro-boleto {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+}
+
+.filtro-colun-cobran-filtro {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+}
+
+.filtro-colun-cobran-filtro select {
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+  padding: 7px;
+}
+
+.filtro-data-cobran-boleto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 19%;
+}
+
+.filtro-data-cobran-boleto input {
+  width: 100%;
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.campos-01-cobranca-boleto input {
+  width: 80%;
+  padding: 8px;
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.campos-01-cobranca-boleto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.indicacoes-cliente-cobran-boleto {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.indicacoes-cliente-cobran-boleto input {
+  width: 100%;
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.pesquisa-filtro-cobran-boleto {
+  width: 25%;
+  display: flex;
+  align-items: flex-end;
+}

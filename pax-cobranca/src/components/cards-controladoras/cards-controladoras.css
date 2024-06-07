@@ -1,0 +1,102 @@
+.icon-controladora {
+  color: var(--verde);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon-controladora label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container-perfil-controladora {
+  width: 20%;
+  display: flex;
+  background-color: var(--cinza-leve);
+  padding: 10px;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.icon-controladora p {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--preto);
+}
+
+.info-controladora {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.campos-controladoras{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.campos-controladoras label{
+    font-weight: 700;
+    font-size: 12px;
+    width: 90%;
+}
+
+.campos-controladoras a{
+    background-color: var(--verde);
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 10px;
+    color: var(--branco);
+}
+
+.campos-controladoras2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.campos-controladoras2 label{
+    font-weight: 600;
+    font-size: 12px;
+    width: 90%;
+}
+
+.campos-controladoras2 a{
+    background-color: var(--vermelho);
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 10px;
+    color: var(--branco);
+}
+
+.campos-controladoras3{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+}
+
+.campos-controladoras3 label{
+    font-weight: 600;
+    font-size: 12px;
+    width: 100%;
+}
+
+.campos-controladoras3 p{
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.gerencial-controla{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

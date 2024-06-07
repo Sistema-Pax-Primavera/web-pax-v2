@@ -1,0 +1,179 @@
+.container-dependentes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 81%;
+}
+
+.pet-cremacao-humana{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.data-filiacao-03 {
+    width: 10%;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.data-filiacao-03 input{
+    font-weight: 500;
+}
+
+.promove-dependente button{
+    background-color: yellow;
+}
+
+.pet-cremacao-humana button{
+    width: 18%;
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.salva-dependentes{
+    width: 20%;
+}
+
+.botao-opcao{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.edit-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-linha2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    margin-top: 10px;
+    gap: 20px;
+    width: 100%;
+}
+
+.pet-cremacao-humana p{
+    font-size: 12px;
+    background-color: var(--cinza-leve);
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    width: 40%;
+    justify-content: start;
+    gap: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.edit-botao button{
+    border-radius: 5px;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 5px;
+}
+
+.delete-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-botao button{
+    border-radius: 5px;
+    color: var(--branco);
+    background-color: var(--vermelho);
+    padding: 5px;
+}
+
+
+.salva-dependentes button{
+    background-color: var(--verde);
+    width: 100%;
+    color: var(--branco);
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.baixa-obito{
+    padding: 4px;
+    background-color: var(--branco);
+    border-radius: 5px;
+}
+
+.legenda-cremacao{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.legenda-amarela{
+    width: 1%;
+    border-radius: 50px;
+    padding: 3px;
+    height: 5px;
+    background-color: rgb(251, 255, 0);
+}
+
+.legenda-roxa{
+    width: 1%;
+    border-radius: 50px;
+    padding: 3px;
+    height: 5px;
+    background-color: rgb(255, 0, 242);
+}
+
+.legenda-laranja{
+    width: 1%;
+    border-radius: 50px;
+    padding: 3px;
+    height: 5px;
+    background-color: rgb(255, 94, 0);
+}
+
+.legenda-vermelho{
+    width: 1%;
+    border-radius: 50px;
+    padding: 3px;
+    height: 5px;
+    background-color: rgb(255, 0, 0);
+}
+
+.legenda-ativo{
+    width: 1%;
+    border-radius: 50px;
+    padding: 3px;
+    height: 5px;
+    background-color: var(--verde);
+}
+
+.campos-legenda{
+    width: 68%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--branco);
+}
+
+.botao-ativo {
+    background-color: var(--verde);
+    color: var(--branco);
+  }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      type="image/ico"
+      href="https://paxprimavera.com.br/favicon.ico"
+      sizes="32x32"
+    />
+    <title>Pax Primavera</title>
+    <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';"
+    />
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' http://sistemadourados.ddns.net:* https:; script-src 'unsafe-inline' 'unsafe-eval' http://sistemadourados.ddns.net:* https:; connect-src http://sistemadourados.ddns.net:* https: ws://sistemadourados.ddns.net:*; style-src 'unsafe-inline' https:; object-src 'none';"
+    /> -->
+    <meta name="importmap-type" content="systemjs-importmap" />
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+          "react": "https://unpkg.com/react@18.2.0/umd/react.production.min.js",
+          "react-dom": "https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js",
+          "react-router-dom": "https://unpkg.com/react-router-dom@4.2.2/umd/react-router-dom.min.js"
+        }
+      }
+    </script>
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
+      as="script"
+    />
+
+    <% if (isLocal) { %>
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "@pax/root-config": "//localhost:9000/pax-root-config.js",
+          "@pax/pax-login": "//localhost:8080/pax-pax-login.js",
+          "@pax/pax-home": "//localhost:8081/pax-pax-home.js",
+          "@pax/pax-associado": "//localhost:8082/pax-pax-associado.js",
+          "@pax/pax-venda": "//localhost:8083/pax-pax-venda.js",
+          "@pax/pax-cobranca": "//localhost:8084/pax-pax-cobranca.js",
+          "@pax/pax-cadastro": "//localhost:8085/pax-pax-cadastro.js",
+          "@pax/pax-suporte": "//localhost:8086/pax-pax-suporte.js",
+          "@pax/pax-boletos": "//localhost:8087/pax-pax-boletos.js",
+          "@pax/pax-parcelas": "//localhost:8088/pax-pax-parcelas.js",
+          "@pax/pax-financeiro": "//localhost:8089/pax-pax-financeiro.js",
+          "@pax/pax-ranking": "//localhost:8091/pax-pax-ranking.js",
+          "@pax/pax-relatorio": "//localhost:8090/pax-pax-relatorio.js"
+        }
+      }
+    </script>
+    <% } %>
+    <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
+    <% if (isLocal) { %>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.js"></script>
+
+    <% } else { %>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
+    <% } %>
+  </head>
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <main></main>
+    <script>
+      System.import("@pax/root-config");
+    </script>
+    <import-map-overrides-full
+      show-when-local-storage="devtools"
+      dev-libs
+    ></import-map-overrides-full>
+  </body>
+</html>
+
+<!-- ,
+          
+          
+           
+        -->

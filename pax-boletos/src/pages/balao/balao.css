@@ -1,0 +1,419 @@
+.container-balao {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.container-balao2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: var(--cinza-leve);
+}
+
+.linhas-campo-balao {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.campos-balao01 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.campos-balao01 label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-balao01 input{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-balao2-boleto {
+  display: flex;
+  flex-direction: column;
+  width: 12%;
+}
+
+.campos-balao2-boleto label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-balao2-boleto input{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-balao02 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.campos-balao02 input {
+  font-size: 12px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.campos-balao02 label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-balao01-buttao {
+  margin-top: 15px;
+  width: 20%;
+}
+
+.campos-balao02 p {
+  padding: 10px;
+  background-color: var(--branco);
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avuls-confirma {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+  width: 100%s;
+}
+
+.container-balao-boletos {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.botao-baixa-bole label {
+  font-size: 12px;
+  color: var(--verde);
+  font-weight: 700;
+}
+
+.botao-baixa-bole {
+  width: 20%;
+  margin-left: 10px;
+  background-color: var(--cinza-leve);
+  padding: 20px;
+  border-radius: 10px;
+  height: 150px;
+  margin-top: 10px;
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabela-balao {
+  width: 100%;
+}
+
+.boleto-balao {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.linhas-boletos {
+  display: flex;
+  width: 100%;
+}
+
+
+.campos-linhas-boletos1 {
+  width: 20%;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.campos-linhas-boletos1 label{
+  font-size: 10px;
+  font-weight:500;
+}
+
+
+.campos-linhas-boletos2 {
+  width: 15%;
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center;
+}
+
+.campos-linhas-boletos2 label{
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  text-align: center;
+}
+
+.campos-linhas-boletos3 {
+  width: 65%;
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center;
+}
+
+.campos-linhas-boletos3 label{
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  text-align: center;
+}
+
+.campos-linhas-boletos4 {
+  width: 82%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos40 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-linhas-boletos40 {
+  width: 80%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos4 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-linhas-boletos5{
+  width: 20%;
+  border: 1px solid black;
+  border-top: none;
+  height: 26px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos5 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+.campos-linhas-boletos5 p{
+  font-size: 10px;
+  font-weight: 500;
+  text-align: end;
+}
+
+.campos-linhas-boletos6{
+  width: 15%;
+  border: 1px solid black;
+  height: 26px;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos6 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-linhas-boletos16{
+  width: 28%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  height: 26px;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos16 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-linhas-boletos15{
+  width: 28%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  height: 26px;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos15 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-linhas-boletos8{
+  width:10%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos8 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-linhas-boletos7{
+  width: 10%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos7 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+.campos-linhas-boletos9{
+  width: 15%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  height: 26px;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos9 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+.campos-linhas-boletos10{
+  width: 7.5%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos10 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+.campos-linhas-boletos11{
+  width: 20%;
+  border: 1px solid black;
+  border-top: none;
+  height: 26px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos11 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-linhas-boletos12 {
+  width: 87%;
+  border: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos12 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-colunas-boletos{
+  width: 22%;
+  border: 1px solid black;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.campos-linhas-boletos13{
+  border-bottom: 1px solid black;
+  border-top: none;
+  padding: 3px;
+  height: 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos13 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.campos-linhas-boletos13 p{
+  font-size: 10px;
+  font-weight: 500;
+  text-align: end;
+}
+
+.campos-linhas-boletos14{
+  width: 19.5%;
+  border: 1px solid black;
+  border-top: none;
+  height: 39px;
+  display: flex;
+  padding: 3px;
+  flex-direction: column;
+}
+
+.campos-linhas-boletos14 label{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.codigo-barra-balao p{
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: -8px;
+}

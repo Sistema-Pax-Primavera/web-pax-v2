@@ -1,0 +1,222 @@
+.container-ranking {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.container-ranking.rotate {
+  transform: rotate(-90deg) translateY(-73%);
+  transform-origin: top right;
+  width: 100vh;
+  height: 100vw;
+  right: 0;
+  bottom: 0;
+  margin-right: 420px;
+}
+
+.rotate-table {
+  width: auto;
+  /* Define a largura automática para permitir que a tabela ajuste seu tamanho */
+  height: calc(100vh - 15vh - 100px);
+  /* Adiciona uma barra de rolagem se necessário */
+}
+
+.header-ranking {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px;
+  background-image: linear-gradient(
+      -45deg,
+      #146f43,
+      #006b33,
+      #0b3c26,
+      #0f3425,
+      #0a2a1d,
+      #0b3c26,
+      #03552b,
+      #006b33
+    ),
+    url("../../../assets/bg-side.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  position: relative;
+}
+
+.header-ranking p {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
+}
+
+.header-controls select,
+.header-controls input[type="date"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.data-inicial-ranking {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.data-inicial-ranking2 {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+}
+
+.data-inicial-ranking2 input{
+  width: 85%;
+}
+
+.unidade-ranking {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.unidade-ranking2 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.unidade-ranking2 select{
+  width: 100%;
+}
+
+.unidade-ranking3 {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+}
+
+.unidade-ranking3 select{
+  width: 100%;
+}
+
+.header-controls .buttons {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.header-controls .buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #006b33;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-ranking {
+  width: 100%;
+  height: 100%;
+  
+  background-color: #ccc;
+  border-collapse: collapse;
+  /* height: calc(100vh - 11vh - 100px); */
+}
+
+.resumo-dados {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 99%;
+  padding: 10px;
+  background-image: linear-gradient(
+      -45deg,
+      #146f43,
+      #006b33,
+      #0b3c26,
+      #0f3425,
+      #0a2a1d,
+      #0b3c26,
+      #03552b,
+      #006b33
+    ),
+    url("../../../assets/bg-side.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+}
+
+.resumo-dados p {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.resumo-dados input[type="text"] {
+  border-radius: 5px;
+  width: calc(50% - 5px);
+  font-weight: 600;
+  color: #006b33;
+  width: 100%;
+  font-size: 12px;
+  /* Calcula a largura dos inputs com margem entre eles */
+  box-sizing: border-box;
+  /* Garante que o padding não aumente a largura total */
+}
+
+.icon-input-select2 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.icon-input-select {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  width: 60%;
+  color: #006b33;
+  padding-left: 10px;
+}
+
+.icon-input-select input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+
+.buttons-pesquisa-gira{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.buttons-pesquisa-gira button{
+  width: 100%;
+  color: #006b33;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,44 @@
+.container-filtro-envio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.analise-filtro-envios {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  align-items: center;
+}
+
+.analise-filtro-envios2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.bloco-filtro2-envios {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-radius: 10px;
+}
+
+
+
+.bloco-filtro2-envios button {
+  font-size: 12px;
+  color: var(--verde);
+  gap: 5px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+  background-color: var(--cinza-leve);
+}

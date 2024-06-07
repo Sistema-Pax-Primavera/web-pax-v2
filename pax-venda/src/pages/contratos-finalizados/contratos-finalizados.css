@@ -1,0 +1,23 @@
+.abrir-contrato{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-table-cadastro button{
+    color: var(--verde);
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.formulario-cliente{
+    display: flex;
+    gap: 5px;
+}
+
+.campos-legenda-contrato-finalizados {
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--branco);
+}

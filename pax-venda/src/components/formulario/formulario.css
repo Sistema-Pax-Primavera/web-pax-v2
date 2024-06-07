@@ -1,0 +1,341 @@
+.campos-legenda-contrato {
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--branco);
+}
+
+.campos-cadastrais-02-contrato {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+}
+
+.campos-cadastrais-03-contrato {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout-linha-contrato {
+    display: flex;
+    background-color: var(--cinza-leve);
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 3px;
+    gap: 10px;
+}
+
+.salvar-associado-contrato button {
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: 500;
+    background-color: var(--verde);
+    width: 100%;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.salvar-associado-contrato{
+    width: 20%;
+}
+
+.layout-linha-contrato2 {
+    display: flex;
+    background-color: var(--cinza-leve);
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 3px;
+    gap: 20px;
+    width: 85%;
+}
+
+.dependente-pet-humano{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color: var(--cinza-leve);
+    border-radius: 5px;
+}
+
+.button-pet-humano{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+
+.imagens-contrato input{
+    background-color: var(--verde);
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-pet-humano button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    position: relative; /* Adicionado */
+}
+
+.button-pet-humano button:focus {
+    outline: none;
+}
+
+.button-pet-humano button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Ajuste a distância da borda inferior conforme necessário */
+    left: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+    width: 97%;
+    z-index: 5;
+    border-bottom: 3px solid yellow; /* Cor da sobreborda */
+}
+
+
+.salva-anexo-formulario{
+    width: 20%;
+}
+
+.salva-anexo-formulario button{
+    background-color: var(--verde);
+    color: var(--branco);
+    width: 100%;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.campos-data-contrato {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-right: 2px;
+}
+
+.campos-data-contrato2 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 2px;
+}
+
+.button-pet-humano button{
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--verde);
+    color: var(--branco);
+}
+
+.container-contrato-cards {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.formulario2-confirmacao{
+    width: 15%;
+}
+
+.formulario-confirma-cadastros{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.campos-01-contrato {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.rg-contrato {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin-right: 2px
+}
+
+.campos-03-contrato{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-03-contrato label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-03-contrato select{
+    font-weight: 500;
+}
+
+.rg-contrato label{
+    font-size: 12px;
+    font-weight: 500
+}
+
+.rg-contrato input{
+    font-weight: 500;
+}
+
+.data-filiacao-contrato {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.campos-02-contrato{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.campos-02-contrato label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+.campos-05-contrato {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+}
+
+.dados-info-contract{
+    margin-top: -5px;
+}
+
+.campos-02-contrato input{
+    font-weight: 500
+}
+.campos-03-contrato{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+.campos-04-contrato {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+.campos-04-contrato label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.campos-03-contrato input{
+    font-weight: 500
+}
+
+.campo-info-bairro-contrato {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-info-bairro-contrato label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campo-info-bairro-contrato input{
+    font-weight: 500;
+}
+
+.campo-info-bairro-contrato select{
+    font-weight: 500;
+}
+
+
+.tabela-info-contrato{
+    display: flex;
+    flex-direction: column;
+}
+
+.botaos-nav-contrato {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.botaos-nav-contrato button {
+    width: 16%;
+    cursor: pointer;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    gap: 10px;
+    margin-top: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.campos-01-contrato {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.campos-01-contrato input{
+    font-weight: 500;
+}
+
+.campos-01-contrato label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.legenda-cremacao-contrato{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.legenda-cremacao-contrato label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.data-nascimento-contrato {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin-right: 3px;
+}
+
+.data-nascimento-contrato label {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.data-nascimento-contrato input{
+    font-weight: 500;
+}

@@ -1,0 +1,173 @@
+.nav-mov-diaria{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    z-index: 0;
+}
+
+.nav-mov-diaria button{
+    background-color: var(--verde);
+    color: var(--branco);
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom-left-radius: 0px ;
+    border-bottom-right-radius: 0px ;
+    border-top-left-radius: 20px;
+}
+
+.form-mov-diario{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 5;
+    margin-top: 0px;
+    background-color: var(--cinza-leve);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.campo01-mov-diario{
+    width:  35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo01-mov-diario label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.linha-form-mov{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.campo01-mov-diario input{
+    background-color: var(--branco);
+    font-weight: 500;
+}
+
+.campo02-mov-diario2{
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo02-mov-diario2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campo02-mov-diario2 input{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+.campo02-mov-diario2 select{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+
+.campo06-mov-diario2{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo06-mov-diario2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campo06-mov-diario2 input{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+.campo06-mov-diario2 select{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+
+
+
+.campo03-mov-diario2{
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo03-mov-diario2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campo03-mov-diario2 input{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+.campo04-mov-diario2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo04-mov-diario2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campo04-mov-diario2 input{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+.campo05-mov-diario2{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo05-mov-diario2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campo05-mov-diario2 input{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+
+
+.button-pet-humano-mov {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    gap: 10px;
+}
+
+.button-pet-humano-mov button {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--verde);
+    color: var(--branco);
+}

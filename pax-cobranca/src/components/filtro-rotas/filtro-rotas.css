@@ -1,0 +1,13 @@
+.container-filtro-rotas-cobran{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--cinza-leve);
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.campos-rotas-cobran2{
+    margin-top: 15px;
+}

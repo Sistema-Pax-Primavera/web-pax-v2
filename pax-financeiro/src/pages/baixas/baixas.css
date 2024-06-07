@@ -1,0 +1,23 @@
+.fundo-checkbox-baixas{
+    background-color: var(--branco);
+    border-radius: 5px;
+    display: flex;
+    width: 98%;
+    margin-right: 15px;
+}
+
+.checkbox-movi-baixas{
+    background-color: var(--branco);
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.icones-tabela-baixas{
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    align-items: start;
+}

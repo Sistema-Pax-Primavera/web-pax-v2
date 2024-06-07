@@ -1,0 +1,133 @@
+.container-cheque{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--cinza-leve);
+    width: 65%;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.linhas-campos-cheque{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.campos-alterar-contrato{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.campos-alterar-contrato label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-alterar-cheque{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.campos-alterar-cheque label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-alterar-contrato input{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+.campos-alterar-contrato2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.campos-alterar-contrato2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-alterar-contrato2 select{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+.pesquisa-cheque{
+    margin-top: 15px;
+}
+
+.tabela-cheque{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela-cheque p{
+    padding: 10px;
+    font-size: 12px;
+    color: var(--branco);
+    width: 25%;
+    background-color: var(--verde);
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.filtro-cheques{
+    width: 100%;
+    background-color: var(--branco);
+    border-radius: 5px;
+}
+
+
+.campos-alterar-contrato-modal{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.campos-alterar-contrato-modal label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-alterar-contrato-modal input{
+    background-color: var(--cinza-leve);
+}
+
+.modal-cheque1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.campos-alterar-contrato-modal2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.campos-alterar-contrato-modal2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-alterar-contrato-modal2 select{
+    background-color: var(--cinza-leve);
+    font-weight: 500;
+}
+
+.campos-alterar-contrato-modal2 input{
+    background-color: var(--cinza-leve);
+    font-weight: 500;
+}

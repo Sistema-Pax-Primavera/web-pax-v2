@@ -1,0 +1,60 @@
+.formulario-cadastro-contrato{
+    width: 88%;
+    display: flex;
+    gap: 10px;
+}
+
+.confirmacao-contrato{
+    background-color: var(--verde);
+    margin-top: 60px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 5px;
+    width: 100%;
+    color: var(--branco);
+    font-weight: 500;
+}
+
+.separacao-contrato{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 5px;
+}
+
+.tipo-contrato-novo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tipo-contrato-novo label{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.tipo-contrato-data{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.confirmados-contratos{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.confirmados-contratos label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.confirmados-contratos button{
+    background-color: var(--branco);
+    color: var(--verde);
+    font-size: 12px
+    
+}

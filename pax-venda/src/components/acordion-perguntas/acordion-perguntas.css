@@ -1,0 +1,136 @@
+.contianer-acordion-perguntas{
+    width: 99%;
+}
+
+.perguntas-label label{
+    font-size: 13px;
+    color: var(--verde);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.tipos-perguntas-acordion{
+    display: flex;
+    width: 98%;
+    gap: 5px;
+    background-color: var(--cinza-leve);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.campos-duvidas-pos p{
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--verde);
+}
+
+.campos-duvidas-pos{
+    display: flex;
+    gap: 3spx;
+    padding: 10px;
+    flex-direction: column;
+    background-color: var(--branco);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.campos-duvidas-pos2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+}
+
+
+.campos-01-pos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.campos-01-pos select{
+    background-color: var(--cinza-leve);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.campos-01-pos textarea{
+    background-color: var(--cinza-leve);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.campos-01-pos input{
+    background-color: var(--cinza-leve);
+    font-size: 12px;
+    font-weight: 500;
+}
+.campos-01-pos textarea{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+}
+
+.campos-01-pos label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.aling-perguntas-acord{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.conte-perguntas-cliente{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conte-perguntas-cliente label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.conte-perguntas-cliente textarea{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 10px;
+    background-color: var(--cinza-leve);
+}
+
+.salva-result-acordion{
+    width: 30%;
+}
+
+
+.navegacao-pergunta-venda{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+.navegacao-pergunta-venda button{
+    background-color: var(--verde);
+    color: var(--branco);
+    font-weight: 700;
+    padding: 10px;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 15px ;
+    width: 15%;
+    font-size: 10px;
+    cursor: pointer;
+}

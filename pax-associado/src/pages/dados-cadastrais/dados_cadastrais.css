@@ -1,0 +1,184 @@
+.container-associados {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.container {
+    margin-top: 20px;
+    border-radius: 5px;
+    height: auto;
+    gap: 5px;
+    width: 83%;
+    display: flex;
+    max-height: 500px;
+    /* Ajuste a altura máxima conforme necessário */
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.container::-webkit-scrollbar {
+    width: 5px;
+    /* largura da barra de rolagem */
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: var(--verde);
+    /* cor do "ponteiro" da barra de rolagem */
+    border-radius: 6px;
+    /* borda arredondada do "ponteiro" */
+}
+
+.layout-linha {
+    display: flex;
+    background-color: var(--cinza-leve);
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 3px;
+    gap: 20px;
+}
+
+
+
+.container-linha {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+
+
+.campos-01 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.campos-01 input {
+    font-weight: 500;
+}
+
+.campos-02 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.campos-02 input {
+    font-weight: 500;
+}
+
+.campos-02 select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 500;
+    padding: 7px;
+}
+
+.campos-03 {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-03 input {
+    font-weight: 500;
+}
+
+.campos-04 {
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-04 input{
+    font-weight: 500;
+}
+
+.icones-nome {
+    color: var(--verde);
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icones-nome label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Mui-disabled {
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+.salvar-associado button {
+    cursor: pointer;
+    font-weight: 500;
+    background-color: var(--verde);
+    font-weight: 700;
+    color: var(--branco);
+    margin-right: 5%;
+}
+
+.dados-cadastrais-associado {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: auto;
+    height: 500px;
+    width: 81%;
+    margin-top: 20px;
+}
+
+.campos-01 select{
+    font-weight: 500;
+}
+.campo-info-bairro input{
+    font-weight: 500;
+}
+
+.campo-info-bairro {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-info-bairro select{
+    font-weight: 500;
+}
+
+.data-inicio-carencia{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-inicio-carencia input{
+    font-weight: 500;
+}
+
+.data-fim-carencia{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-fim-carencia input{
+    font-weight: 500;
+}
+
+.salvar-associado{
+    width: 20%;
+}
+
+.acordion-dados-comerciais{
+    width: 99.7%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}

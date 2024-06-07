@@ -1,0 +1,25 @@
+.container-vendas{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.dashboard-vendas{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.dashboard-vendas img{
+    width: 30%;
+}
+
+.dashboard-vendas h1{
+    color: var(--verde);
+    font-size: 20px;
+    font-weight: 700;
+}

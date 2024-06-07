@@ -1,0 +1,27 @@
+.container-cadastro{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+
+.cadastro-img{
+    width: 88%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+
+.cadastro-img label{
+    color: var(--verde);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cadastro-img img{
+    width: 30%;
+    
+}

@@ -1,0 +1,14 @@
+.posicao-formulario-contrato {
+    background-color: var(--verde);
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 5px;
+    width: 100%;
+    color: var(--branco);
+    font-weight: 500;
+}
+
+.confirmados-contratos button{
+    cursor: pointer;
+}

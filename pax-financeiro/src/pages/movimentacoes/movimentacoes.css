@@ -1,0 +1,23 @@
+.fundo-checkbox-movimentacoes{
+    background-color: var(--branco);
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.checkbox-movi{
+    background-color: var(--branco);
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.icones-tabela{
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    align-items: start;
+}

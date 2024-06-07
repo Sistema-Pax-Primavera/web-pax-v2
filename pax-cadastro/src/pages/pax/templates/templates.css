@@ -1,0 +1,213 @@
+.edit-cadastro-parentesco button {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.edit-cadastro-paren button {
+  background-color: var(--vermelho);
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.div-edit-cadastro-parentesco {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.linhas-campos-cadastro {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.tipo-parentesco-cadas {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.tipo-parentesco-cadas label {
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+}
+
+.tipo-parentesco-cadas input {
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+}
+
+.buttao-salvar-parentesco {
+  margin-top: 15px;
+  background-color: var(--verde);
+  border-radius: 10px;
+  width: 20%;
+}
+
+.sub-container-template {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.html_editor{
+  width: 50%;
+}
+
+.editor-template {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  height: 500px;
+}
+
+.preview-template {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+
+}
+
+.codigo-html {
+  width: 45%;
+  height: 500px;
+  overflow: auto;
+}
+
+.preview-template2 {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  overflow: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.previa-contrato-template{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.preview-template h3 {
+  font-size: 12px;
+  color: var(--verde);
+  font-weight: 700;
+}
+
+.preview-template button {
+  width: 20%;
+  font-size: 12px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  background-color: var(--verde);
+  color: var(--branco);
+  font-weight: 700;
+}
+
+.preview-print {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.edit-cadastro-parentesco button {
+  background-color: var(--verde);
+  color: var(--branco);
+}
+
+.button-voltar-template {
+  width: 10%;
+}
+
+.button-voltar-template button{
+  background-color: var(--verde);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--branco);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.salva-previsa-botao-template{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.salva-previsa-botao-template button{
+  background-color: var(--verde);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--branco);
+  padding: 5px;
+}
+
+.editor-template textarea{
+  width: 50%;
+  padding: 30px;
+  height: 500px;
+  overflow: auto;
+  outline: none;
+}
+
+.html-content{
+  width: 50%;
+  overflow: auto;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.html-content2{
+  overflow: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+  border-radius: 5px;
+}
+
+
+
+.previa-contrato-pdf{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.previa-contrato-pdf button{
+  background-color: var(--verde);
+  color: var(--branco);
+  font-weight: 700;
+}
+
+.previa-contrato-pdf label{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.avoid-pagebreak {
+  page-break-inside: avoid;
+}
+
+.page {
+  page-break-before: always;
+  height: 800px; /* Altura da página */
+}

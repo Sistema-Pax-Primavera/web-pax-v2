@@ -1,0 +1,26 @@
+.container-header-suporte {
+    display: flex;
+    align-items: start;
+    gap: 3px;
+    flex-direction: column;
+    width: 12%;
+    margin-top: 25px;
+}
+
+.container-header-suporte button {
+    display: flex;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 12px;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--verde);
+    color: var(--branco);
+    width: 100%;
+}
+
+.container-header-suporte button.active {
+    border-bottom: 3px solid yellow;
+    /* Adapte conforme necessário */
+    transform: none;
+}

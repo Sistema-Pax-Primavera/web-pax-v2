@@ -1,0 +1,249 @@
+.contianer-acordion-perguntas{
+    width: 99%;
+}
+
+.perguntas-label label{
+    font-size: 13px;
+    color: var(--verde);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.tipos-perguntas-acordion{
+    display: flex;
+    width: 98%;
+    gap: 5px;
+    background-color: var(--cinza-leve);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.campos-duvidas-pos p{
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--verde);
+}
+
+.campos-duvidas-pos{
+    display: flex;
+    gap: 3spx;
+    padding: 10px;
+    flex-direction: column;
+    background-color: var(--branco);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.campos-duvidas-pos2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+}
+
+
+.campos-01-pos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.campos-01-pos select{
+    background-color: var(--cinza-leve);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.campos-01-pos textarea{
+    background-color: var(--cinza-leve);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.campos-01-pos input{
+    background-color: var(--cinza-leve);
+    font-size: 12px;
+    font-weight: 500;
+}
+.campos-01-pos textarea{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+}
+
+.campos-01-pos label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.aling-perguntas-acord{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.linhas-contratos-pendentes{
+    display: flex;
+    flex-direction: column;
+}
+
+.linhas-contratos-pendentes2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.linhas-contratos-pendentes input{
+    font-weight: 500;
+}
+
+.campos-botao-contrato-pendente{
+    width: 5%;
+}
+
+.conte-perguntas-cliente{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conte-perguntas-cliente label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.conte-perguntas-cliente textarea{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 10px;
+    background-color: var(--cinza-leve);
+}
+
+.salva-result-acordion{
+    width: 30%;
+}
+
+
+.navegacao-pergunta-venda{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+.navegacao-pergunta-venda button{
+    background-color: var(--verde);
+    color: var(--branco);
+    font-weight: 700;
+    padding: 10px;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 15px ;
+    width: 15%;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.additional-field{
+    background-color: var(--branco);
+    border-radius: 10px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.additional-field label{
+    width:70%;
+    margin-left: 10px;
+}
+
+.additional-field input{
+    background-color: var(--cinza-leve);
+    border: 1px solid var(--verde);
+    display: flex;
+    font-size: 11px;
+}
+
+.close-option-contrato{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcoes-adicionaddas-contratos{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.close-option-contrato button{
+    color: var(--verde);
+}
+
+.linha-contrato-botao{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.linha-contrato-botao label{
+    width: 65%;
+}
+
+.linha-contrato-botao button{
+    width: 30%;
+}
+
+.confirma-aviso-contrato{
+    width: 15%;
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirma-aviso-contrato2{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirma-aviso-contrato button{
+    background-color: var(--verde);
+    color: var(--branco);
+    padding: 1px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirma-aviso-contrato2 button{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 3px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

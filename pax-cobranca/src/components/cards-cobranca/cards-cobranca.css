@@ -1,0 +1,25 @@
+.container-cards-cobranca {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 5px;
+    background-color: var(--branco);
+    flex-wrap: wrap;
+}
+
+.container-cards-cobranca h1 {
+    width: 100%;
+}
+
+.info-card-cobran {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: start;
+    color: var(--verde);
+}
+
+.container-cards-cobranca .info-card-cobran label {
+    font-size: 9px;
+}

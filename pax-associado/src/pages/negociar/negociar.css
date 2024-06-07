@@ -1,0 +1,8 @@
+.dados-negociar-associado {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 40%;
+    margin-top: 20px;
+    height: 200px;
+}

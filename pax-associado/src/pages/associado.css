@@ -1,0 +1,184 @@
+@import '../styles/index.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+.container-associado {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.pesquisa-associado {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pesquisa-associado input {
+    background-color: var(--cinza-leve);
+    width: 40%;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.pesquisa-associado button {
+    background-color: var(--verde);
+    color: var(--branco);
+    padding-left: 35px;
+    padding-right: 35px;
+    transform: none;
+    width: 15%;
+}
+
+.pesquisa-associado button:hover {
+    cursor: pointer;
+    transform: none;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.imagem-pesquisar-associado {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-pesquisar-associado img {
+    width: 30%;
+
+}
+
+.opcao-associado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcao-associado button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--verde);
+    color: var(--branco);
+    font-size: 10px;
+    gap: 15px;
+    width: 80%;
+    text-align: center;
+    transform: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.loading-associado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.loading-associado p {
+    color: var(--verde);
+    font-weight: 800;
+}
+
+.navegacao-associado button {
+    background-color: var(--verde);
+    transform: none;
+    color: var(--branco);
+    font-size: 11px;
+    text-align: start;
+    font-weight: 700;
+}
+
+.navegacao-associado label {
+    color: var(--verde);
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.estrutura-associado {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.TableContainer {
+    max-height: 400px;
+    /* Defina a altura máxima desejada */
+    overflow-y: auto;
+    /* Adiciona uma barra de rolagem vertical quando necessário */
+}
+
+.tabelas-associados {
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.TableHead {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    /* Cor de fundo do cabeçalho */
+    z-index: 1;
+    /* Garante que o cabeçalho esteja acima do corpo da tabela */
+}
+
+.TableBody {
+    line-height: 1;
+    /* Diminui o espaçamento entre as linhas */
+}
+
+.tabelas-adesao-promocao {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+
+.tabelas-adesao-promocao button {
+    width: 18%;
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.obrigatorio {
+    color: red;
+}
+
+.edit-botao button {
+    border-radius: 5px;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 5px;
+}
+
+.delete-botao button {
+    border-radius: 5px;
+    color: var(--branco);
+    background-color: var(--vermelho);
+    padding: 5px;
+}
+
+.button-pesquisa-associado {
+    width: 15%;
+}

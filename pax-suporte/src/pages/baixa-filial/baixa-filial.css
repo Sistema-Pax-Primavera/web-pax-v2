@@ -1,0 +1,72 @@
+.container-baixa-filial{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--cinza-leve);
+    width:60%;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.linhas-campos-baixa-filial{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.campos-alterar-contrato{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.campos-alterar-contrato label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-alterar-contrato input{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+.campos-alterar-contrato2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.campos-alterar-contrato2 label{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-alterar-contrato2 select{
+    font-weight: 500;
+    background-color: var(--branco);
+}
+
+.pesquisa-baixa-filial{
+    margin-top: 15px;
+}
+
+.tabela-alterar-caixa{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela-baixa-filial p{
+    padding: 10px;
+    font-size: 12px;
+    color: var(--branco);
+    width: 25%;
+    background-color: var(--verde);
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}

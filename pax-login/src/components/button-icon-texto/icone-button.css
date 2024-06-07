@@ -1,0 +1,23 @@
+.button-login {
+    width: 70%;
+}
+
+.button-login button {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--branco);
+    color: var(--verde);
+    font-weight: 800;
+}
+
+.button-login button:hover {
+    transform: translateY(-5px);
+    /* Move para cima 5 pixels */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

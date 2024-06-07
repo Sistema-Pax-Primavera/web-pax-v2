@@ -1,0 +1,24 @@
+.container-boletos{
+    margin-top: 26px;
+    display: flex;
+    gap:10px
+}
+
+.central-boletos01{
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+}
+
+.central-boletos01 img{
+    width: 30%;
+}
+
+.central-boletos01 h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--verde);
+}

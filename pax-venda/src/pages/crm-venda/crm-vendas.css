@@ -1,0 +1,80 @@
+.informacoes-crm-vendas {
+    width: 99%;
+    display: flex;
+    gap: 3px;
+}
+
+.container-cobranca-escritorio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2px;
+    margin-top: 25px;
+}
+
+.container-cobranca-escritorio button {
+    width: 10%;
+    color: var(--branco);
+    background-color: var(--verde);
+    display: flex;
+    font-weight: 600;
+    font-size: 12px;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-retorn3 {
+    width: 90%;
+}
+
+.retorna-cobranca {
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+
+.filtro-cobrancaca-escritorio {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 50%;
+}
+
+.button-retorn-cobran {
+    width: 5%;
+}
+
+.crm-vendas-container {
+    width: 50%;
+    display: flex;
+    gap: 5px;
+}
+
+.crm-vendas-container label {
+    width: 30%;
+    height: 5%;
+    color: var(--verde);
+    margin-top: 8px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.crm-vendas-container .button {
+    width: 30%;
+    color: var(--verde);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.crm-vendas-container .button-filtro {
+    width: 6%;
+    color: var(--verde);
+    display: flex;
+}
+
+.button-retorn2 {
+    margin-right: 10px;
+}

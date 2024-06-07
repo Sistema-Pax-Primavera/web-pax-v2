@@ -1,0 +1,59 @@
+.container-filtro-movdiaria{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--cinza-leve);
+    width: 98%;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.campos-mov-diaria1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-mov-diaria1 label{
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-mov-diaria1 select {
+    width: 100%;
+    background-color: var(--branco);
+}
+
+.campos-mov-diaria2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-mov-diaria2 label{
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.campos-mov-diaria2 select {
+    width: 100%;
+    background-color: var(--branco);
+}
+
+.filtrar-mov-diaria{
+    margin-top: 15px;
+}
+
+.container-filtros-mov{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.retorn-ulti-tela{
+    width: 15%;
+    margin-bottom: 10px;
+}

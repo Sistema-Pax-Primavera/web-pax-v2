@@ -1,0 +1,159 @@
+.textarea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-observacao-associado {
+    margin-top: 20px;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    background-color: var(--cinza-leve);
+    gap: 10px;
+    max-height: 300px;
+}
+
+.data-observacao {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.data-observacao input {
+    width: 90%;
+    font-weight: 500;
+}
+
+.textarea textarea {
+    border: none;
+    outline: none;
+    max-width: 1000px;
+    height: 130px;
+    max-height: 130px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.salva-observacao {
+
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.salva-observacao button {
+    background-color: var(--verde);
+    cursor: pointer;
+    color: var(--branco);
+    width: 20%
+}
+
+.fundo-modal-observacao{
+    margin-top: 15px;
+    width: 95%; 
+    background-color: var(--cinza-leve);
+    height: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    padding: 15px;
+}
+
+.titulo-observacao{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.titulo-observacao p{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.titulo-observacao label{
+    background-color: var(--branco);
+    color: var(--preto);
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.titulo-observacao2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.titulo-observacao2 p{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.titulo-observacao2 label{
+    background-color: var(--branco);
+    color: var(--preto);
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.titulo-observacao3{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.titulo-observacao3 p{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.titulo-observacao3 label{
+    background-color: var(--branco);
+    color: var(--preto);
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.descricao-observacao3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.descricao-observacao3 p{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.descricao-observacao3 label{
+    background-color: var(--branco);
+    color: var(--preto);
+    font-weight: 500;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.campos-02-observacao {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+}
+
+.campos-02-observacao select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 500;
+    padding: 7px;
+}

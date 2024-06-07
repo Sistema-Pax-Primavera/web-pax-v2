@@ -1,0 +1,41 @@
+.teste333 button{ font-family: 'Montserrat', sans-serif;;;
+}
+
+/* Adicione isso ao seu arquivo de estilo (modal-cheques.css) */
+
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .slideDownAnimation {
+    animation: slideDown 0.5s ease;
+  }
+  
+
+  .container-modal-pequena{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fecha-container-modal-pequena{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: end;
+}
+
+.fecha-container-modal-pequena button{
+    background-color: var(--branco);
+    color: var(--vermelho);
+    cursor: pointer;
+}
+
+.conteudo-container-modal{
+    width: 100%;
+}

@@ -1,0 +1,47 @@
+.navegacao-cadastro-cob {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 3px;
+    margin-bottom: 50px;
+}
+
+.navegacao-cadastro-cob button {
+    background-color: var(--verde);
+    transform: none;
+    color: var(--branco);
+    font-size: 12px;
+    text-align: start;
+    transform: none;
+    font-weight: 500;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.navegacao-cadastro-cob label {
+    color: var(--verde);
+    font-size: 10px;
+}
+
+.navegacao-cadastro-cob button.active {
+    border-bottom: 3px solid yellow;
+    transform: none;
+}
+
+.back-header {
+    width: 100%;
+    cursor: pointer;
+}
+
+.back-header a {
+    background-color: var(--verde);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 5px;
+    gap: 10px;
+}

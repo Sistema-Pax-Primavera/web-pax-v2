@@ -1,0 +1,90 @@
+.container-soli-cobradores {
+  width: 88%;
+  display: flex;
+  gap: 10px;
+}
+
+.buttaos-soli{
+    width: 48%;
+}
+
+
+.buttaos-soli2{
+  width: 100%;
+}
+
+.solicitacoes-cobradores01 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  height: auto;
+  background-color: var(--cinza-leve);
+  width: 40%;
+}
+
+.solicitacoes-cobradores01 label {
+  color: var(--verde);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.solicitacoes-cobradores02 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--cinza-leve);
+  width: 40%;
+}
+
+.solicitacoes-cobradores02 label {
+  color: var(--verde);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nenhuma-solicitacao-cobra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+}
+
+.nenhuma-solicitacao-cobra p{
+  color: var(--verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.aguardando-sincronismo-soli {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aguardando-sincronismo-soli label{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+  background-color: var(--verde);
+  color: var(--branco);
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 10px;
+}

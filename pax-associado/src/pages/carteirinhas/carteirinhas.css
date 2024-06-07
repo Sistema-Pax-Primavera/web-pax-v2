@@ -1,0 +1,65 @@
+.carteirinha-container {
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+    width: 40%;
+    flex-direction: column;
+    height: 400px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: var(--cinza-leve);
+}
+
+.nome-carteirinha{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-carteirinha select{
+    width: 50%;
+    font-weight: 500;
+}
+
+.carteirinha-imprimir{
+    display: flex;
+    width: 100%;
+    margin-top: 35px;
+    margin-right: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao {
+    position: relative;
+    width: 700px;
+    /* Ajuste conforme necessário */
+}
+
+.informacoes {
+    z-index: 5;
+    font-weight: 500;
+    margin-top: -70px;
+    margin-left: 180px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.carteirinha-img {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.carteirinha-container button {
+    background-color: var(--verde);
+    font-weight: 700;
+    color: var(--branco);
+    width: 30%;
+    cursor: pointer;
+}
+
+.validade {
+
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+}

@@ -1,0 +1,36 @@
+.tipo-raca-cadas{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.tipo-raca-cadas label{
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+}
+
+.tipo-raca-cadas select{
+    background-color: var(--cinza-leve);
+    font-weight: 500;
+}
+
+.tipo-raca-cadas input{
+    background-color: var(--cinza-leve);
+    font-weight: 500;
+}
+
+.buttao-salvar-raca{
+    margin-top: 15px;
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 20%;
+}
+.pesquisa-tabelas-cadastro input{
+    font-weight: 500;
+    background-color: var(--cinza-leve);
+}
+
+.tamanho-botao-pesquisa{
+    width: 13%;
+}

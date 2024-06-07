@@ -1,0 +1,148 @@
+.container-contratos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-contrato-associado {
+    margin-top: 20px;
+    width: 83%;
+    border-radius: 5px;
+    background-color: var(--cinza-leve);
+    padding: 15px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tipo-contrato-associado {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.contrato-associados {
+    background-color: var(--branco);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--verde);
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.contrato-associados-anexo {
+    background-color: var(--branco);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--verde);
+    justify-content: center;
+    gap: 5px;
+    width: 40%;
+    padding: 10px;
+}
+
+.deleta-contrato{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.deleta-contrato button{
+    cursor: pointer;
+    background-color: var(--vermelho);
+}
+
+.contrato-associados-anexo button{
+    background-color: var(--verde);
+    color: var(--branco);
+}
+
+.contrato-associados button{
+    color: var(--branco);
+}
+
+.baixa-delete-contrato{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.baixa-contrato{
+    width: 50%;
+    color: var(--branco);
+}
+
+.baixa-contrato button{
+    cursor: pointer;
+    background-color: var(--verde);
+}
+
+.document2{
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+
+.nome-arquivo {
+    z-index: 50;
+}
+
+.nome-arquivo label {
+    color: var(--verde);
+    font-weight: 700;
+}
+
+.tipo-contrato-associado label {
+    color: var(--verde);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.arquivo p {
+    font-size: 10px;
+}
+
+.document {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.document input {
+    color: var(--verde);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.document a {
+    color: var(--verde);
+    font-size: 50px;
+}
+
+.document input {
+    background-color: var(---verde);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.document button {
+    background-color: var(--verde);
+    padding: 10px;
+    color: var(--branco);
+    font-weight: 800;
+    font-size: 12px;
+}

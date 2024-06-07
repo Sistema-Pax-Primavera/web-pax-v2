@@ -1,0 +1,293 @@
+.informacoes-cont-cobr {
+  width: 150%;
+  display: flex;
+  height: 90%;
+  overflow-x: auto;
+  gap: 5px;
+
+}
+
+.alinhando-loading {
+  margin-top: 150px;
+}
+
+
+/* Estilizando a barra de rolagem para navegadores Gecko (Firefox) */
+.container-cobranca-escritorio {
+  scrollbar-width: thin;
+  /* cor do controle de rolagem e cor de fundo da trilha */
+}
+
+
+.container-cobranca-escritorio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2px;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.container-cobranca-escritorio button {
+  width: 10%;
+  color: var(--branco);
+  background-color: var(--verde);
+  display: flex;
+  font-weight: 600;
+  font-size: 12px;
+  align-items: center;
+  gap: 20px;
+}
+
+.button-retorn3 {
+  width: 80%
+}
+
+.retorna-cobranca {
+  display: flex;
+  align-items: start;
+  width: 100%;
+}
+
+.filtro-cobrancaca-escritorio {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 80%;
+}
+
+.button-retorn-cobran {
+  width: 4%;
+}
+
+.crm-escritorio-container {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.crm-escritorio-container label {
+  color: var(--verde);
+  margin-top: 8px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-retorn2 {
+  margin-right: 10px;
+}
+
+.container-modal-lateral {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+}
+
+.campos-filtro-dia-pag {
+  display: flex;
+  width: 30%;
+}
+
+.campos-filtro-dia-pag label {
+  font-weight: 500;
+}
+
+.campos-filtro-dia-pag select {
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+}
+
+.campos-filtro-dia-pag {
+  display: flex;
+  flex-direction: column;
+}
+
+.campos-filtro {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+}
+
+.campos-filtro label {
+  font-weight: 500;
+}
+
+.filtro-colun-cobran {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+}
+
+.filtro-colun-cobran select {
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+  padding: 7px;
+}
+
+.filtro-data-cobran {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 19%;
+}
+
+.filtro-data-cobran input {
+  width: 100%;
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.campos-01-cobranca-nome label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-01-cobranca-nome input {
+  width: 93%;
+  padding: 8px;
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.campos-01-cobranca-nome {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 45%;
+}
+
+.categoriasdof9 {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+.categoriasdof9 label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.categoriasdof9 select {
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.categoriasdof9 input {
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.campos-01-cobranca-nome select {
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+}
+
+.campos-01-cobranca label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-01-cobranca input {
+  width: 85%;
+  padding: 8px;
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.campos-01-cobranca {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 35%;
+}
+
+.campos-01-cobranca select {
+  background-color: var(--cinza-leve);
+  font-weight: 500;
+}
+
+.indicacoes-cliente-cobran {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.indicacoes-cliente-cobran input {
+  width: 100%;
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.pesquisa-filtro-cobran {
+  width: 25%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.campos-01-cobranca-contrato label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-01-cobranca-contrato input {
+  width: 80%;
+  padding: 8px;
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.campos-01-cobranca-contrato {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 18%;
+}
+
+.campos-01-escritorio {
+  width: 20%;
+}
+
+.campos-01-escritorio label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-01-escritorio input {
+  width: 85%;
+  padding: 8px;
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+
+.campos-01-cobranca-data label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.campos-01-cobranca-data input {
+  width: 93%;
+  padding: 8px;
+  font-weight: 500;
+  background-color: var(--cinza-leve);
+}
+
+.campos-01-cobranca-data {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 20%;
+}

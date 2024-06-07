@@ -1,0 +1,82 @@
+.container-envios-padrao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 88%;
+}
+
+.filtro-envios{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    width: 75%;
+    background-color: var(--cinza-leve);
+    border-radius: 5px;
+}
+
+.dois-blocos-envios{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 97%;
+}
+
+.bloco-filtro2-envios{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: var(--cinza-leve);
+}
+
+.check-ativo-inativo-env{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.campos-envio-filtro{
+    display: flex;
+    align-items: center;
+}
+
+.campos-envio-filtro label{
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.check-ativo-inativo-env select{
+    background-color: var(--branco);
+}
+
+.check-ativo-inativo-env2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pesquisa-envio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.pesquisa-envio2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+}
+
+.filtro-resultado-envios{
+    width: 97%;
+    border-radius: 10px;
+}
+
+.check-options-envios{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
